@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Librería Siglo XX1</title>
+    
+    
+</head>
+<body>
+
+    <div class="title">
+        <h1>Librería "Ojos Noche"</h1>
+    </div>
+
+    <div class = "subTitle">
+        <h4>Nuestros títulos</h4>
+    </div>
+
+    <div class="search"> 
+        <input type="text" id="searchTitle" placeholder="Inserta un título...">
+        <button onclick="searchBooks()">Buscar</button>
+    </div>
+
+    <div class="divTable">
+        <center>
+            <table id = "tablaLibros" class="table table-hover">
+                <thead>
+                    <tr>
+                        <th>Título</th>
+                        <th>Autor</th>
+                        <th>Capítulos</th>
+                        <th>Páginas</th>
+                        <th>Precio</th>
+                    </tr>
+                </thead>
+                <tbody id="tbody"></tbody>
+            </table>
+        </center>
+    </div>
+
+    <script src = "js/script.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</body>
+</html>
