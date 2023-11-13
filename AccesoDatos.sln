@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34024.191
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LibreriaExamen2", "LibreriaExamen2\LibreriaExamen2.csproj", "{961A8A8A-5035-4368-92C5-1CE0C81E7877}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "APILibreria", "APILibreria\APILibreria.csproj", "{0961A9B0-1384-4129-BFAD-D65C7D8C8F11}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{961A8A8A-5035-4368-92C5-1CE0C81E7877}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{961A8A8A-5035-4368-92C5-1CE0C81E7877}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{961A8A8A-5035-4368-92C5-1CE0C81E7877}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{961A8A8A-5035-4368-92C5-1CE0C81E7877}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0961A9B0-1384-4129-BFAD-D65C7D8C8F11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0961A9B0-1384-4129-BFAD-D65C7D8C8F11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0961A9B0-1384-4129-BFAD-D65C7D8C8F11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0961A9B0-1384-4129-BFAD-D65C7D8C8F11}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DCD6E63D-0A56-48BA-9A9B-8E00080F11E2}
+	EndGlobalSection
+EndGlobal
